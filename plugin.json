@@ -1,0 +1,16 @@
+{
+    "author": "Alan",
+    "homepage": "https://github.com/3Alan",
+    "pluginName": "awesome-plugin",
+    "description": "my first uTools plugin",
+    "logo": "logo.png",
+    "main": "index.html",
+    "version": "0.0.1",
+    "features": [
+        {
+            "code": "hello",
+            "explain": "hello world",
+            "cmds": ["hello", "你好"]
+        }
+    ]
+}
