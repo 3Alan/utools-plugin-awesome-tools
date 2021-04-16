@@ -1,16 +1,27 @@
 {
-    "author": "Alan",
-    "homepage": "https://github.com/3Alan",
-    "pluginName": "awesome-plugin",
-    "description": "my first uTools plugin",
-    "logo": "logo.png",
-    "main": "index.html",
-    "version": "0.0.1",
-    "features": [
+  "author": "Alan",
+  "homepage": "https://github.com/3Alan",
+  "pluginName": "awesome-plugin",
+  "description": "这是一个工具库",
+  "logo": "logo.png",
+  "main": "index.html",
+  "version": "0.0.1",
+  "features": [
+    {
+      "code": "browserCode",
+      "explain": "userAgent",
+      "cmds": ["browser"]
+    },
+    {
+      "code": "niceRegex",
+      "explain": "niceRegex",
+      "cmds": [
         {
-            "code": "hello",
-            "explain": "hello world",
-            "cmds": ["hello", "你好"]
+          "type": "regex",
+          "label": "文本正则匹配",
+          "match": "/0?(13|14|15|18|17)[0-9]{9}/"
         }
-    ]
+      ]
+    }
+  ]
 }
