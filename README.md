@@ -1,5 +1,5 @@
 # utools-plugin-test
-An experimental project
+一个实验性的项目
 
 ## 已有功能
 - userAgent解析
