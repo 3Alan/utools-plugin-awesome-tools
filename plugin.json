@@ -11,18 +11,12 @@
   },
   "features": [
     {
-      "code": "browserCode",
-      "explain": "userAgent",
-      "cmds": ["browser"]
-    },
-    {
-      "code": "niceRegex",
-      "explain": "niceRegex",
+      "code": "userAgent",
+      "explain": "userAgent解析",
       "cmds": [
         {
-          "type": "regex",
-          "label": "文本正则匹配",
-          "match": "/0?(13|14|15|18|17)[0-9]{9}/"
+          "type": "over",
+          "label": "userAgent解析"
         }
       ]
     }
