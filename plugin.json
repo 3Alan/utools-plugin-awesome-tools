@@ -6,6 +6,9 @@
   "logo": "logo.png",
   "main": "index.html",
   "version": "0.0.1",
+  "development": {
+    "main": "http://127.0.0.1:3000/index.html"
+  },
   "features": [
     {
       "code": "browserCode",
